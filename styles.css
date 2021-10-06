@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+* {box-sizing: border-box;}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.monitorBorder {
+    height: 220px;
+    width: 330px;
+    position: absolute;
+    background: rgb(131, 131, 131);
+    top: 40%;
+    left: 55%;
+    border: 2px solid rgb(26, 25, 25);
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 1px rgba(83, 82, 82, 0.507);
+}
+
+.monitorScreen {
+    height: 190px;
+    width: 300px;
+    position: absolute;
+    background: linear-gradient(310deg,#582DF9, #04E0FA);
+    border: 2px solid rgb(26, 25, 25);
+    top: 615px;
+    left: 1599px;
+}
+
+.monitorStand {
+    border-bottom: 45px solid rgb(131, 131, 131);
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	height: 0;
+    width: 35px;
+    position: absolute;
+    top: 820px;
+    left: 1735px;
+    z-index: 2;
+
+}
+
+.monitorStandShadow {
+    border-bottom: 49px solid rgb(0, 0, 0);
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	height: 0;
+    width: 37px;
+    position: absolute;
+    top: 818.5px;
+    left: 1734px;
+    z-index: 1;
+
+}
+
+.all {
+    height: 100vh;
+    width: 200vh;
+    background: linear-gradient(90deg,#b4faf6, #fdb5ee);
+  
+}
+
+.table {
+    height: 30px;
+    width: 1000px;
+    position: absolute;
+    background: rgb(68, 66, 66);
+    top: 850px;
+    left: 1270px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px 1px rgba(83, 82, 82, 0.507);
+}
+
+.blueDot {
+    width: 4px;
+    height: 6px;
+    position: absolute;
+    background: rgb(29, 81, 251);
+    top: 813px;
+    left: 1886px;
+
+}
+
+.secondMonitorBorder {
+        height: 190px;
+        width: 290px;
+        position: absolute;
+        background: rgb(131, 131, 131);
+        top: 42%;
+        left: 67%;
+        border: 2px solid rgb(26, 25, 25);
+        border-radius: 6px;
+        box-shadow: 0px 0px 3px 1px rgba(83, 82, 82, 0.507);
+}
+
+.secondMonitorScreen {
+    height: 160px;
+    width: 260px;
+    position: absolute;
+    background: linear-gradient(140deg,#592df9, #04e1fa);
+    border: 2px solid rgb(26, 25, 25);
+    top: 645px;
+    left: 1944.5px;
+}
+
+.secondMonitorStand {
+    border-bottom: 45px solid rgb(131, 131, 131);
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	height: 0;
+    width: 35px;
+    position: absolute;
+    top: 820px;
+    left: 2060px;
+    z-index: 2;
+    
+}
+
+.secondMonitorStandShadow {
+    border-bottom: 49px solid rgb(0, 0, 0);
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	height: 0;
+    width: 38px;
+    position: absolute;
+    top: 818.5px;
+    left: 2058.5px;
+    z-index: 1;
+   
+    
+
+}
+
+.secondDot {
+    width: 4px;
+    height: 6px;
+    position: absolute;
+    background: rgb(29, 81, 251);
+    top: 813px;
+    left: 2190px;
+
+}
+
+.macBorder {
+        height: 140px;
+        width: 220px;
+        position: absolute;
+        background: rgb(95, 95, 95);
+        top: 47.2%;
+        left: 46.8%;
+        border: 2px solid rgb(26, 25, 25);
+        border-radius: 6px;
+        box-shadow: 0px 0px 3px 1px rgba(83, 82, 82, 0.507);
+
+}
+
+.macScreen {
+    height: 120px;
+        width: 206px;
+        position: absolute;
+        background: linear-gradient(140deg,#592df9, #04e1fa);
+        top: 47.9%;
+        left: 47.05%;
+        border: 2px solid rgb(26, 25, 25);
+        
+        box-shadow: 0px 0px 3px 1px rgba(83, 82, 82, 0.507);
+
+}
+
+
+.macKeyboard {
+    width: 260px;
+    height: 20px;
+    position: absolute;
+    background: rgb(95, 95, 95);
+    border-radius: 0 0 12px 12px;
+    border: 2px solid black;
+    top: 56.3%;
+    left: 46.1%;
+    box-shadow: 0px 0px 3px 1px rgba(83, 82, 82, 0.507);
+}
+
+.macKeyboardSecond {
+    width: 260px;
+    height: 10px;
+    position: absolute;
+    background: rgb(155, 155, 155);
+    top: 56.3%;
+    left: 46.1%;
+    border: 2px solid black;
+    border-bottom: 0px;
+    box-shadow: 0px 0px 3px 1px rgba(83, 82, 82, 0.507);
+    
+}
+
+.logo {
+    font-family: sans-serif;
+    position: absolute;
+    top: 840px;
+    left: 1440px;
+    font-size: 6px;
+    color: rgb(214, 214, 214);
+    
+}
+
+
+.first, .second, .third {
+    background: transparent;
+    position: absolute;
+    font-size: 40px;
+    font-family: monospace;
+    
+}
+
+.first {
+    top: 620px;
+    left: 350px;
+    
+}
+
+.second {
+    top: 690px;
+    left: 350px;
+}
+
+.third {
+    top: 760px;
+    left: 350px;
+    
+}
+
+a {
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+}
+
+
+
+
